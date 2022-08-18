@@ -1,1 +1,8 @@
-<p>recette-details works!</p>
+<div class="d-flex flex-column">
+  <img class="mb-20" [src]="plat.img" [alt]="plat.name">
+  <h3 class="mb-20"> {{ plat.name }}</h3>
+  <p class="mb-20"> {{plat.description}}</p>
+  <div>
+    <button class="btn btn-primary">modifie le plat</button>
+  </div>
+</div>
