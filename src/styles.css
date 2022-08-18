@@ -15,7 +15,7 @@
   --lightgray:#ddd;
   --text-regular:#444;
 }
-
+/*utilitaires*/
 ul {
   list-style: none;
 }
@@ -35,7 +35,14 @@ body {
   background: #f5f5f5;
   color: var(--text-regular);
 }
-/*des ptits flexs*/
+/*layouts*/
+.container {
+  max-width: 1200px;
+  display: block;
+  margin: auto;
+  padding: 20px;
+}
+
 
 .d-flex {
   display: flex;
@@ -88,6 +95,52 @@ body {
   margin: 20px;
 }
 
+.mb-20 {
+  margin-bottom: 20px;
+}
+/*thème*/
+
+.list-primary li {
+  padding: 10px 15px;
+  border: 1px solid var(--lightgray);
+  border-top: 0;
+}
+.list-primary li:first-child {
+  border-top: 1px solid var(--lightgray);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.list-primary li:last-child {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.list-primary li:hover {
+  background-color: var(--primary);
+  color: white;
+  font-weight: bold;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.btn{
+  padding: 10px 15px ;
+  background-color: white;
+  border:0;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.btn-primary{
+  background-color: var(--primary);
+  color: white;
+}
+
+.btn-primary:hover{
+  background-color: var(--secondary);
+  transition: background-color 0.4s;
+  cursor: pointer;
+}
+
 /* debug*/
 
 .d1 {
@@ -97,3 +150,4 @@ body {
 .d2 {
   border: 1px solid green;
 }
+
