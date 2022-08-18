@@ -6,7 +6,6 @@
     "recettes": {
       "projectType": "application",
       "schematics": {
-        "skipTest": true
       },
       "root": "",
       "sourceRoot": "src",

@@ -35,3 +35,63 @@ body {
   background: #f5f5f5;
   color: var(--text-regular);
 }
+/*des ptits flexs*/
+
+.d-flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-column{
+  flex-direction: column;
+}
+
+.flex-justify-center {
+  justify-content: center;
+}
+
+.flex-justify-content-between {
+  justify-content: space-between;
+}
+
+.flex-align-items-center {
+  align-items: center;
+}
+
+.flex-fill {
+  flex: 1 1 auto;
+}
+
+/*ptit pad*/
+
+.p-10 {
+  padding: 10px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+/*ptite marg*/
+.m-10 {
+  margin: 10px;
+}
+.m-20 {
+  margin: 20px;
+}
+
+/* debug*/
+
+.d1 {
+  border: 1px solid red;
+}
+
+.d2 {
+  border: 1px solid green;
+}
