@@ -5,7 +5,9 @@
   "projects": {
     "recettes": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "skipTest": true
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -97,5 +99,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "7a536d57-c159-46bb-bc74-4d73602429df"
   }
 }
